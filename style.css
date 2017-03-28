@@ -1,0 +1,245 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster';
+body{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    background-color: #cbcac8;
+    font-family: 'Lobster';
+}
+.col-xs-12{
+    padding:0;
+}
+#page_wrapper{
+    padding:0;
+}
+
+section{
+    margin:0;
+    padding:0;
+    height:1200px;
+    background: URL('images/background.jpg');
+    background-repeat: no-repeat;
+    background-position:top;
+    background-attachment: fixed;
+    position: relative;
+}
+.section1{
+    height:800px;
+}
+.logo{
+	margin-top: 10%;
+	width: 30%;
+	color:white;
+	font-size: 40px;
+	margin-bottom: 0/;
+}
+.menu{
+    margin: 0;
+    margin-top: 150px;
+    display: inline-block;
+}
+.menu>div{
+    margin:0;
+    background-color:black;
+    height: 60px;
+    display: block;
+    float:left;
+    clear:both;
+    margin-bottom: 20px;
+    transition: 0.5s ease-in-out;
+    font-size:30px;
+    font-weight: bold;
+    font-family: 'Lobster';
+}
+p{
+	color: white;
+	transition: 0.5s ease-in-out;
+}
+a {
+	color:dodgerblue;
+	text-decoration: none;
+}
+a:hover{
+	color:black;
+	text-decoration: none;
+}
+.menu a{
+    color:white;
+    transition:  0.5s ease-in-out;
+	line-height: 60px;
+}
+
+.menu>div:hover{
+    background-color: white;
+	color:black;
+}
+.menu div:hover p{
+    color:black;
+	text-decoration: underline;
+	
+	
+}
+.Gallery{
+    height:65%;
+    background-color:rgba(0, 0, 0, 0.87);
+    clear:both;
+    float:right;
+    margin-top:50px;
+    margin-right:100px;
+    padding:2%;
+
+}
+.gallery_alboms{
+    height: 98%;
+    background-color: rgba(62, 61, 61, 0.64);
+    display: inline-block;
+    clear: both;
+    padding: 2%;
+    overflow:auto;
+    text-align: center;
+    position: relative;
+}
+ h1{
+		color: white;
+	
+}
+p{
+	color: white;
+	transition: 0.5s ease-in-out;
+}
+::-webkit-scrollbar{
+	background-color: rgba(62, 61, 61, 0.64);
+	width: 7px;
+
+}
+::-webkit-scrollbar-button{
+	background-color: rgba(15, 14, 14, 0.7);
+	
+}
+::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	background:rgba(235, 235, 235, 0.63);
+	
+	
+}
+::-webkit-scrollbar-corner{
+	background-color: wheat;
+}
+#main{
+    background-color: white;
+}
+#main p{
+    color: black;
+}
+.album{
+
+    padding:1%;
+    background-color: rgba(253, 253, 253, 0.13);
+    color: white;
+    font-family: 'Lobster';
+    text-align: center;
+    transition: 1s ease-in-out;
+    margin-left: 6%;
+    margin-bottom: 5%;
+}
+.album a{
+    color:white;
+}
+.album a>img{
+    width: 100%;
+   
+    transition:1s ease-in-out;
+}
+.album1{
+    padding:1%;
+    background-color: rgba(253, 253, 253, 0.13);
+    color: white;
+    text-align: center;
+    transition: 1s ease-in-out;
+    margin-left: 5%;
+    margin-bottom: 1%;
+	margin-top: 0;
+}
+.album1 img{
+    width: 100%;
+    transition: 1s ease-in-out;
+}
+
+.album:hover{
+   
+    width: 30%;
+
+    margin: 0;
+}
+
+.video{
+	margin-bottom:10%;
+}
+
+.album>img{
+    width: 100%;
+    height: 200px;
+    transition: 1s ease-in-out;
+}
+.worksh{
+    overflow: auto;
+    margin-bottom: 10%;
+}
+
+.worksh img{
+    width:100%;
+    height:600px;
+}
+#worksh_img{
+    height: 400px;
+}
+.worksh a{
+    color:papayawhip;
+    font-size:18px;
+}
+.worksh1{
+    overflow: hidden;
+
+}
+.worksh1 p{
+    text-align: center;
+    overflow: hidden;
+    color:white;
+    font-size:20px;
+    font-family: cursive;
+    overflow-y: auto;
+    
+}
+.worksh1 img{
+    width:50%;
+    height:250px;
+    margin-top: 5%;
+}
+#two{
+    width:70%;
+    height: 200px;
+}
+
+
+footer{
+    background-color: black;
+    height:100px;
+    margin-top: 340px;
+}
+@media(max-width:1200px){
+    section{
+        height: auto;
+        position: relative;
+    }
+    footer{
+        position: absolute;
+        bottom: 0;
+    }
+    .menu{
+        margin-top: 100px;
+        clear: both;
+    }
+    .section1{
+        height:auto;
+    }
+}
